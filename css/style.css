@@ -102,8 +102,31 @@ div#bs-example-navbar-collapse-1 {
 	width: 280px;
 	height: 280px;
 }
+.adress{
+	padding-top: 50px;
+	color:white;
+	width: 100%;
+	background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    background: #313131;
+
+}
 .card-text{
+	padding-top: 10px;
+	height: 60px;
+	width: 100%;
+	color:black;
 	max-width: 100%;
+	background-color:#FFEB3B;
+	border:black 1px solid;
+	text-align: center;
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+	
+}
+.card-text:hover{
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+	box-shadow: 5px 5px white;
 }
 .navbar-default {
   background:none;
